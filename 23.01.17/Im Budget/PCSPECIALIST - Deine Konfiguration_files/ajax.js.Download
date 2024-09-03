@@ -1,0 +1,1 @@
+function pcs_retrieve(variable){var url=variable;var jsel=document.createElement('SCRIPT');jsel.type='text/javascript';jsel.src=url;document.body.appendChild(jsel);}
