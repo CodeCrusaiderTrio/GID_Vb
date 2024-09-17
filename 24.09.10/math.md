@@ -1,8 +1,16 @@
 ```math
-a = (5+(6*3)+3+(1*3)+5+(6*3)+7+(8*3)+5+(6*3)+0+(8*3))%10
-a: 0
+StuSa = 50
+Dauer = 40
+Sensoren = 10 * 20
+cost_pro_RFID = 0.14
+mon_eingang = 10000
+inv_1mon = 40
+inv_2mon = 8
 
-x = 18904
-b = 10-(x%10)
-b: 6
+preis1 = StuSa * inv_1mon
+preis1: 2000
+
+preis2 = (StuSa * (inv_2mon / 2)) + mon_eingang * cost_pro_RFID
+preis2: 1600.0000000000002
+
 ```
