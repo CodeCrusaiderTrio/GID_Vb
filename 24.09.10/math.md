@@ -1,16 +1,27 @@
 ```math
-StuSa = 50
-Dauer = 40
-Sensoren = 10 * 20
-cost_pro_RFID = 0.14
-mon_eingang = 10000
-inv_1mon = 40
-inv_2mon = 8
 
-preis1 = StuSa * inv_1mon
-preis1: 2000
+max_Bestand = 250
 
-preis2 = (StuSa * (inv_2mon / 2)) + mon_eingang * cost_pro_RFID
-preis2: 1600.0000000000002
+daily_loss = 25
+
+restock_days = 4
+
+res_Bestand = 50
+
+f(x) = -25 * x + 200
+
+min_Bestand = max_Bestand - daily_loss * restock_days
+min_Bestand: 150
+
+res = -25 * 24 + 200
+res: -400
+
+250 - min - 50 = 0
+min = 200
+
+min * order_min + res = 0
+order_min = 2
+
 
 ```
+
