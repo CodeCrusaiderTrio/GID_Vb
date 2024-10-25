@@ -65,8 +65,27 @@
   In zB. der Medizin- oder Automobilbranche, kann die Weiterverarbeitung auch nur eines einzigen fehlerhaften Teils fatale Auswirkungen haben.
   Da diese Art der Kontrolle sehr kosten- und zeitaufwendig werden kann, wird sie idR. nur auf besonders kritische Produkte beschränkt und nicht Unternehmensweit angewendet.
 
-```
-Verhalten bei Feststellung eines Mangels...
-Begriffe Gewährleistung, Garantie, Kulanz...
-https://chatgpt.com/share/671b7a04-a2ec-800a-ac3f-62fe4baea582
-```
+- **Gewährleistung**
+  -> ... beschreibt eine **gesetzlich vorgeschriebene** Frist von **2 Jahren**, in der der Verkäufer für Mängel am Produkt haftet, die vor der Übergabe an den Käufer bestanden. Die Gewährleistung gilt **nur für Privatkunden**! 
+
+- **Garantie**
+  -> ... beschreibt eine **freiwillige Leistung** des Verkäufers, individuell vertraglich definierte Mängel am Produkt über die gesetzliche Gewährleistung hinaus zu beseitigen.  
+
+- **Kulanz**
+  -> ... beschreibt die **freiwillige Leistung** des Verkäufers, nach **Ablauf von Gewährleistung und Garantie**, weitere Mängel am Produkt zu beseitigen oder Reparaturen durchzuführen.
+
+### Verhalten im Fall eines Mangels (Unternehmen)
+
+1. **Mängelrüge**
+   - Der Käufer sollte einen Mangel am Produkt oder einer Lieferung umgehend schriftlich rügen, also dem Verkäufer mitteilen.
+     Abhängig von den zuvor festgelegten Vertragsbedingungen, legt der Käufer hier eine Frist (zB. 14 Tage) fest, in welcher der Verkäufer reagieren muss.
+
+2. **Nacherfüllung**
+   - Innerhalb der vereinbarten Frist hat der Verkäufer die Möglichkeit der Nachbesserung (Reparatur) oder Ersatzlieferung.
+     Schlägt der zweite Nachbesserungsversuch fehl oder ist die Ersatzlieferung in einem unzumutbaren Zustand, kann der Käufer die Nacherfüllung auch ablehnen.
+
+3. **Rücktritt oder Minderung**
+   - Wird die Nacherfüllung nicht innerhalb der Frist geleistet oder schlägt fehl, so kann der Käufer Kaufpreisminderung fordern. Bei erheblichen Mängeln ist es dem Käufer zudem möglich vollständig vom Kaufvertrag zurück zu treten und somit den gesamtem Kaufpreis erstattet zu bekommen.
+
+4. **Schadensersatz**
+   - Vor Allem im Fall eines Unternehmen kann aus einer mangelhaften Lieferung zudem ein wirtschaftlicher Schaden entstehen. In diesem Fall hat der Käufer zudem Anspruch auf **Schadensersatz**. Dies kann passieren wenn die gelieferte Ware anderweitig zu einem erhöhten Preis erworben werden musste oder die verzögerte Lieferung Produktionsausfälle zur Folge hatte.
