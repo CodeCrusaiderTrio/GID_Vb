@@ -89,3 +89,49 @@
 
 4. **Schadensersatz**
    - Vor Allem im Fall eines Unternehmen kann aus einer mangelhaften Lieferung zudem ein wirtschaftlicher Schaden entstehen. In diesem Fall hat der Käufer zudem Anspruch auf **Schadensersatz**. Dies kann passieren wenn die gelieferte Ware anderweitig zu einem erhöhten Preis erworben werden musste oder die verzögerte Lieferung Produktionsausfälle zur Folge hatte.
+
+## 3: Einlagerung von Waren und Codierungen
+
+### Schritte bei der Einlagerung
+- **Erstellung eines Wareneingangsscheins**
+  -> Artikel, Anzahl, Datum etc. wird im System festgehalten
+
+- **Bildung logischer Einheiten**
+  -> Die angelieferte Ware wird in zuvor festgelegten Einheiten eingelagert. Je nach Artikel kann diese per Anzahl, Gewicht oder Volumen definiert sein.
+
+- **Kennzeichnung**
+  -> Jede Ware oder logische Einheit wird zur späteren Identifizierung mit einer Wareneingangsnummer versehen. Diese wird anschließend in Form zB. eines Barcodes auf den Artikel gedruckt oder geklebt.
+
+- **Bestandserfassung**
+  -> Die eingelagerte Ware wird dem mit aktuellen Gesamtbestand der Ware im Lager addiert.
+
+- **Freigabe und Transport**
+  -> ... der neu angelieferten Waren zum vorgesehenen Lagerort bzw. in das vorgesehene Lager
+
+### Codierung
+
+Zur besseren Nachverfolgung wird jede Ware im Lager mit einer Nummer versehen und diese auch physisch auf der Ware angebracht. Damit diese Nummer möglichst automatisiert eingelesen werden kann, erfolgt dies häufig in Form eines Barcodes.
+Es gibt verschiedene Systeme um eine Zahlenkombination als Barcode zu exportieren ([Tabelle mit Codierungen](<../24.09.10/3 Tabelle mit Codierungen.docx>)), zB. GTIN, GS1-Presscode oder Code 128. Bei nahezu allen dieser Codierungen werden die Zahlen zuvor in Binär umgewandelt, um sie mit kurzen und breiten Strichen (1 und 0) darzustellen. Anschließend werden die Nummern mit einer Prüfziffer versehen.
+Die Prüfziffer wird aus den vorangegangenen Ziffern berechnet. Anschließend gleicht das Lesegerät die berechnete Nummer mit der tatsächlichen Prüfziffer auf dem Barcode ab, um sicherzustellen das die restliche Zahl korrekt gelesen wurde.
+
+![alt text](image.png)
+
+Im Fall von 'Data Matrix Codes' wie dem QR-Code (Quick Response), ist es durch diese Prüfziffern möglich, große Teile des QR-Codes aus der Prüfsumme heraus wiederherzustellen. Dies ist möglich, da die Prüfziffer mehrfach auf QR-Code hinterlegt ist und sich so von der Prüfziffer auf die tatsächliche Information rückschließen lässt.
+
+![alt text](image-1.png)
+
+## 4: RFID-Technik
+
+RFID (Radio Frequency Identification) ermöglicht die Identifizierung von Waren, bzw. das Lesen der Warennummer ohne direkten Sichtkontakt zum Objekt.
+
+Hierzu sendet ein Lesegerät elektromagnetische Wellen aus, die via Induktion einen kleinen Stromkreis in dem RFID-Etikett anstoßen. Diese Schwächt anschließend das Magnetfeld des Lesegerätes auf eine Solche Weise, dass es dadurch die Warennummer herleiten kann (ähnlich wie Morsecode)
+
+Mit der RFID-Technik ist es so möglich, eine sehr große Anzahl an Waren, auf einmal einzulesen, ohne direkten Sichtkontakt mit dem Lesegerät sicherzustellen.
+
+![alt text](image-2.png)
+![alt text](image-3.png)
+
+## 5: Optimierung der Lagerhaltung
+
+
+## 6: Bestandsarten 
